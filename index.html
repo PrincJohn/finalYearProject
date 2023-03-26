@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NATIONAL RESTO CAFE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style> body, html {s
+height: 100%;
+font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+background-position: center; background-size: cover;
+background-image: url("cafe_logo.jpg"); 
+min-height: 75%;
+}
+
+
+.menu { display: none;
+}
+</style>
+</head>
+<body>
+ 
+<!-- Links (sit on top) -->
+<div class="w3-top">
+<div class="w3-row w3-padding w3-black">
+<div class="w3-col s3">
+<a href="#" class="w3-button w3-block w3-black">HOME</a>
+</div>
+<div class="w3-col s3">
+<a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+</div>
+<div class="w3-col s3">
+<a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+</div>
+<div class="w3-col s3">
+<a href="#where" class="w3-button w3-block w3-black">LOCATION</a>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div>
+<center><img src="cafe logo.jpg" style="width:20%;max-width:1000px" class="w3-margin- top"></center>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+<span class="w3-tag">Open from 9:30am to 10:30pm</span>
+</div>
+<div class="w3-display-bottomright w3-right">
+<span class="w3-text:white">Kumar nagar, Tiruppur</span>
+</div>
+</header>
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-teal w3-large">
+ 
+<!-- About Container -->
+<div class="w3-container" id="about">
+<div class="w3-content" style="max-width:700px">
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
+
+<p>National Resto Cafe in Tirupur, established since 1990. Their main motive is making customers happy with their home brewed home grown high quality coffee. Seats are available inside and outside in a beautiful green patio. The facility can be reserved for special events, with at least a two week notice given the high demand. There are a team of 14 multinational people with a strong passion for quality coffee and with the dream of making the world a better place, one smile and a cup of coffee at a time.</p>
+<br><p>During 2015 National Resto Cafe is extended to two shops at different locations with new items like sandwiches and burgers and got attracted by numerous customers. Recently many of their customers faced a lot of challenges to order a combo sandwiches and home brewed coffee. Problems like the non-functional websites, lack of response and long delivery wait times. That is when we decided to go online and solve this predicament to the best of our abilities by website designing our National Resto Cafe.</p>
+<br><p>The belief that customers satisfaction is important as their quantity and quality of the products have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the cafe.</p>
+
+
+<div class="w3-panel w3-leftbar w3-light-grey">
+<p><center><b><i>"BRINGING CLASS TO CUISINE"</i></b></center></p>
+<p><center><b><i>"HUNDREDS OF FLAVOURS UNDER ONE ROOF"</i></b></center></p>
+</div>
+
+<p><strong>Opening hours:<br></strong>Mon: 9.30am-10.30pm
+Tue:  9.30am-10.30pm<br>
+Wed: 9.30am-10.30pm<br>
+Thu: 9.30am-10.30pm<br>
+ Fri: 9.30am-1.00pm, 2.00pm-10.30pm<br>
+Sat: 9.30am-10.30pm<br>
+Sun: 9.30am-10.30pm<br>
+</p>
+<p><strong>Address:</strong>29, Kumar Nagar South, Valayankadu main road, Tiruppur, Tamilnadu - 641603</p>
+</div>
+</div>
+
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+<div class="w3-content" style="max-width:700px">
+
+
+<h5	class="w3-center	w3-padding-48"><span	class="w3-tag	w3-wide">THE MENU</span></h5>
+
+<div class="w3-row w3-center w3-card w3-padding">
+
+<a href="javascript:void(0)" onclick="openMenu(event, 'STARTERS');" id="myLink">
+<div class="w3-col s6 tablink">STARTERS</div>
+</a>
+
+<a href="javascript:void(0)" onclick="openMenu(event, 'BEVERAGES'); ">
+<div class="w3-col s6 tablink">BEVERAGES</div>
+</a>
+</div>
+
+
+<div id="STARTERS" class="w3-container menu w3-padding-48 w3-card">
+
+<h5  style="color:orange;"><strong>Chicken Fingers</strong></h5>
+<center><strong><p class="w3-text-black">Deep fried chicken coated in bread served with ketchup </p><br></strong></center>
+<center><img src="chicken_fin.jpg" style="width:50%;max-width:1000px" class="w3-margin- top"></center>
+
+<h5 style="color:orange;"><strong>French Fries</strong></h5>
+<center><strong><p class="w3-text-black">Salted potatoes fried and served with ketchup and mayo</p><br></strong><center>
+<center><img src="french_fries.jpg" style="width:50%;max-width:1000px" class="w3-margin-top"></center>
+
+<h5 style= "text-align:left;color:orange;"><strong>Chicken Bites</strong></h5>
+<center><strong><p class="w3-text-black">Baked breaded chicken meat</p><br></strong></center>
+<center><img src="chicken_bite.jpg" style="width:50%;max-width:1000px" class="w3-margin- top"></center>
+
+<h5 style= "text-align:left;color:orange;"><strong>Chicken Jumbo Sandwich</strong></h5>
+<center><strong><p class="w3-text-black">Fried Boneless chicken breast between bread grilled with butter</p><br></strong></center>
+<center><img src="jumbo_chicken_san.jpg" style="width:50%;max-width:1000px" class="w3- margin-top"></center>
+
+</div>
+
+
+<div id="BEVERAGES"	class="w3-container	menu	w3-padding-48	w3- card">
+<h5 style= "text-align:left;color:orange;"><strong>Royal Falooda</strong></h5>
+<center><strong><p class="w3-text-black">Mughlai cuisine version of cold dessert made with vermicelli</p><br></strong></center>
+<center><img src="faloda.jpg" style="width:50%;max-width:1000px" class="w3-margin-top"></center>
+
+<h5 style= "text-align:left;color:orange;"><strong>Pista Milkshake</strong></h5>
+
+<center><strong><p class="w3-text-black">Thick cold mixture of milk, cream and ice cream topped with chopped Pista and caramel sauce</p><br></strong></center>
+<center><img src="milkshake.jpg" style="width:50%;max-width:1000px" class="w3-margin- top"></center>
+
+<h5 style= "text-align:left;color:orange;"><strong>Fresh Juices</strong></h5>
+<center><strong><p class="w3-text-black">Natural extacts of Orange, Anar, Mousambi and mix of all fruits</p><br></strong></center>
+
+<center><img src="JUICES.jpg" style="width:50%;max-width:1000px" class="w3-margin-top"></center>
+
+<h5 style= "text-align:left;color:orange;"><strong><strong>Smoothie</strong></strong></h5>
+
+<center><strong><p class="w3-text-black">Blend of exquisite ingredients with milk, cream and ice cream</p><br></strong></center>
+
+<center> <img src="SMOTHIE.jpg" style="width:50%;max-width:1000px" class="w3- margin-top"> 
+</center>
+
+
+</div>
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-content" style="max-width:700px">
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Location</span></h5>
+<p>Scan the QR code and find where we are</p>
+ <img src="qr_code_cropped.jpg" class="w3-image" style="width:30%"> 
+
+
+<p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.</p>
+
+<p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+<form action="/action_page.php" target="_blank">
+ 
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+
+<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+
+<p><input	class="w3-input	w3-padding-16	w3-border"	type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message
+\ Special requirements" required name="Message"></p>
+
+<p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+</form>
+</div>
+</div>
+
+</div>
+<center><img src="shop_pic.jpg"	style="width:50%;max-width:1000px;margin-top:32px;"></center>
+</div>	
+
+<!-- End page content -->
+</div>
+
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) { var i, x, tablinks;
+x = document.getElementsByClassName("menu"); for (i = 0; i<x.length; i++) {
+x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink"); for (i = 0; i<x.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+}
+ 
+document.getElementById(menuName).style.display="block"; evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+</body>
+</html>
